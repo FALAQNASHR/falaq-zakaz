@@ -208,7 +208,7 @@ function send(){
   if(!has){alert("Hech narsa tanlanmadi!");return;}
   lines.push("","JAMI: "+ff(actTotal)+" som"+(pct>0?" ("+pct+"% chegirma bilan)":""));
   lines.push("Sana: "+new Date().toLocaleDateString());
-  window.open("https://t.me/share/url?url=&text="+encodeURIComponent(lines.join("\n")),"_blank");
+  window.open("https://t.me/share/@akobir1912
 }
 render();
 </script>
